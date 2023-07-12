@@ -20,5 +20,11 @@ git reflog  #查看所有的操作记录  包括回退记录
 
 git reset --hard 版本地址  #回退到指定版本  
 
+git branch new_branch #创建一个新分支
+
+git checkout -b new_branch  #创建一个新分支并立即切换到该分支
+
+git switch -c new_branch  #创建一个新分支并立即切换到该分支  
+
 wq  #写并退出
 
