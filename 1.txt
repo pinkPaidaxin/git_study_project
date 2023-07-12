@@ -1,9 +1,15 @@
 git add 文件名
-git add --all 或者 git add .  提交全部文件到暂存区
-git status  查看暂存区或者主分支库中的文件
-git rm --cached 文件名  删除暂存区文件
+git add --all 或者 git add .  #提交全部文件到暂存区
+git status  #查看暂存区或者主分支库中的文件
+git rm --cached 文件名  #删除暂存区文件
 
 
-git commit -m "Add描述"  提交到主分支 
+git commit -m "Add描述"  #提交到主分支 
 
-git log  查看分之中的描述
+git log  #查看分之中的描述
+
+git reset --hard HEAD^  #回退上一次提交的版本  工作区也会直接回退
+
+git reflog  #查看所有的操作记录  包括回退记录
+
+git reset --hard 版本地址  #回退到指定版本  
