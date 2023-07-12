@@ -28,5 +28,9 @@ git checkout -b new_branch  #创建一个新分支并立即切换到该分支
 
 git switch -c new_branch  #创建一个新分支并立即切换到该分支  
 
+git merge branch_id    #合并分支
+
+git branch -d branch_id  #删除一个分支
+
 wq  #写并退出
 
