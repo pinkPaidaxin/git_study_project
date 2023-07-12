@@ -12,8 +12,9 @@ git log  #查看分之中的描述
 
 git reset --hard HEAD^  #回退上一次提交的版本  工作区也会直接回退
 
+git reset --soft HEAD^  #回退上一次提交的版本  会回退到暂存区
+
 git reflog  #查看所有的操作记录  包括回退记录
 
 git reset --hard 版本地址  #回退到指定版本  
 
-gii 测试
