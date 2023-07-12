@@ -10,9 +10,11 @@ git commit -m "Add描述"  #提交到主分支
 
 git log  #查看分之中的描述
 
-git reset --hard HEAD^  #回退上一次提交的版本  工作区也会直接回退   写几个^就代表回退几个版本
+git reset --hard HEAD^  #回退上一次提交的版本  会直接回退到工作区   写几个^就代表回退几个版本
 
 git reset --soft HEAD^  #回退上一次提交的版本  会回退到暂存区
+
+git revert --soft HEAD^ #回退到上一次提交的版本  但会在git log中生成一条新的回退记录
 
 git reflog  #查看所有的操作记录  包括回退记录
 
