@@ -32,5 +32,10 @@ git merge branch_id    #合并分支
 
 git branch -d branch_id  #删除一个分支
 
+git remote add origin https://github.com/pinkPaidaxin/git_study_project.git  #origin是别名  连接远程库
+
+git push origin master:master  #提交本地库到远程库
+
 wq  #写并退出
 
+git
