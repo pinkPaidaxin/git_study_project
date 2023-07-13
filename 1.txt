@@ -36,6 +36,9 @@ git remote add origin https://github.com/pinkPaidaxin/git_study_project.git  #or
 
 git push origin master:master  #提交本地库到远程库
 
+git push -u origin master  # -u代表记录这次提交的分支  之后在这个分支提交就可以 直接 git push
+
+
 wq  #写并退出
 
 git
